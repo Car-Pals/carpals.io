@@ -7,7 +7,7 @@ ios_app_country                           : us                                  
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
@@ -20,16 +20,16 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
+your_name                                 : CarPals                                
+your_link                                 :                      
+your_city                                 :                                 
+email_address                             :
 facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+instagram_username                        :
+twitter_username                          :
+github_username                           :
 youtube_username                          :
-mastodon_link                             : https://mastodon.social/@ebaehr
+mastodon_link                             :
 
 
 
@@ -38,7 +38,7 @@ features                                  :
 
   - title                                 : Crypto Payment System
     description                           : Enables cryptocurrency payments for automatic trip fare transfers.
-    fontawesome_icon_name                 : magic
+    fontawesome_icon_name                 : money-check-alt
     
   - title                                 : Group-based Chat System
     description                           : Automatically creates group chats for confirmed trips, enhancing communication and coordination.
@@ -46,23 +46,23 @@ features                                  :
 
   - title                                 : Trip Request Matching
     description                           : Utilizes a sophisticated algorithm to optimize matches between drivers and riders.
-    fontawesome_icon_name                 : mobile
+    fontawesome_icon_name                 : suitcase
 
   - title                                 : Navigation System
     description                           : Provides real-time route guidance for users.
-    fontawesome_icon_name                 : mobile
+    fontawesome_icon_name                 : map-marker-alt
 
   - title                                 : Recommendation System
     description                           : Offers personalized trip suggestions on the platform's home page.
-    fontawesome_icon_name                 : mobile
+    fontawesome_icon_name                 : thumbs-up
 
   - title                                 : AI-powered Fraud Prevention
     description                           : Detects and flags potentially fraudulent trip posts, ensuring user safety.
-    fontawesome_icon_name                 : mobile
+    fontawesome_icon_name                 : info-circle
 
   - title                                 : AI Chatbot Customer Service
     description                           : Provides efficient and reliable support for user inquiries and concerns.
-    fontawesome_icon_name                 : mobile
+    fontawesome_icon_name                 : headphones-alt
 
 # Theme Settings
 topbar_color                              : "#000000"
